@@ -1,9 +1,9 @@
 {
   "baseUrl": "http://localhost:4100",
   "env": {
-    "apiUrl": "https://conduit.productionready.io/api",
-    "username": "warren_boyd",
-    "email": "warren.boyd@mailinator.com",
+    "apiUrl": "https://conduit-api.bondaracademy.com/api",
+    "username": "codex_1783061614273",
+    "email": "codex_1783061614273@example.com",
     "password": "Pa$$w0rd!"
   }
 }

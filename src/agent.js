@@ -1,5 +1,4 @@
-const API_ROOT =
-  process.env.REACT_APP_BACKEND_URL ?? 'https://conduit.productionready.io/api';
+const API_ROOT = process.env.REACT_APP_BACKEND_URL ?? '/api';
 
 /**
  * Serialize object to URL params

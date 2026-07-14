@@ -31,7 +31,7 @@ describe('Login page', () => {
   it('should require all the fields', () => {
     cy.findByRole('button', { name: /sign in/i }).click();
 
-    cy.wait('@login').its('response.statusCode').should('equal', 422);
+    cy.wait('@login').its('response.statusCode').should('equal', 403);
 
     cy.get('.error-messages').within(() => {
       cy.findAllByRole('listitem').should('have.length', 1);

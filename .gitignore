@@ -20,3 +20,7 @@ npm-debug.log
 
 cypress/videos
 cypress/screenshots
+
+# local nginx deployment runtime files
+logs
+nginx-temp
